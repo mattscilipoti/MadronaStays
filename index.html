@@ -27,17 +27,7 @@
         transform: rotate(-90deg);
         width: 600px; /* image height */
       }
-      h2 {
-        bottom: 145px;
-        color: white;
-        font-size: 1.3em;
-        font-weight: 600;
-        letter-spacing: 0.3em;
-        position: absolute;
-        right: 20px;
-        text-align: center;
-        text-transform: uppercase;
-      }
+      
       hr.delimiter {
         background-color: #eb5c17;
         border: none;
@@ -79,14 +69,50 @@
         /* filter: invert(43%) sepia(97%) saturate(2890%) hue-rotate(356deg) brightness(98%) contrast(88%); */
         height: 600px; /* image height */
       }
+      #house h2 {
+        bottom: 145px;
+        color: white;
+        font-size: 1.3em;
+        font-weight: 600;
+        letter-spacing: 0.3em;
+        position: absolute;
+        right: 20px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      .col-info {
+        float: left;
+        width: 50%;
+      }
+      .listing-link {
+        border: 1px #eb5c17 solid;
+        border-radius: 6px;
+        float: left;
+        height: 80px;
+        margin: 6px;
+        padding: 10px;
+        padding: 8px;
+        width: 144px;
+        vertical-align: middle;
+        /* background-color: #eb5c17;
+        border-radius: 10px;
+        color: white;
+        margin: 10px;
+        opacity: 50%;
+        text-align: center;
+        width: 140px; */
+      }
+      .listing-link img{
+        height: 80px;
+        width: 144px;
+        vertical-align: middle;
+      }
       /* Clear floats after the columns */
       .row:after {
         content: "";
         display: table;
         clear: both;
       }
-
-
   </style>
 </head>
 <body>
@@ -98,7 +124,19 @@
     </div>
   </div>
   <div id="info" class="row">
-    
+    <h2>Stay with us...</h2>
+    <div class='col-info'>
+      <div id="vrbo">
+        <a class="listing-link" href="https://www.homeaway.com/vacation-rental/p9319022?uni_id=8377324">
+          <img src="images/homeaway_logo.svg"/>
+        </a>
+      </div>
+      <div id="airbnb">
+        <a class="listing-link" href="https://www.airbnb.com/rooms/41239106">
+          <img src="images/Airbnb_Lockup_Over_Gradient.png"/>
+        </a>
+      </div>
+    </div>
   </div>
   <div id="address" class="row">
     <p class="address">
