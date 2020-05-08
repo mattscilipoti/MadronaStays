@@ -36,31 +36,40 @@
         margin-top: 400px;
         position: relative;
       }
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
 
 
   </style>
 </head>
 <body>
   <img src="images/OHHcard_house.png"></img>
-  <div id="bottom">
-    <div id="address">
-      <p class="address">
-        Eastsound WA
-      </p>
-      <p class="address">
-        Orcas Island
-      </p>
-      <p class="meta telephone">
-        Tel. +1 360-610-7212
-      </p>
-      <p class="meta email">
-        info@orcashillhouse.com
-      </p>
-      <p class="meta webpage">
-        orcashillhouse.com
-      </p>
-      <hr class="delimiter"/>
     </div>
+  </div>
+  <div id="info" class="row">
+    
+  </div>
+  <div id="address" class="row">
+    <p class="address">
+      Eastsound WA
+    </p>
+    <p class="address">
+      Orcas Island
+    </p>
+    <p class="meta telephone">
+      Tel. +1 360-610-7212
+    </p>
+    <p class="meta email">
+      info@orcashillhouse.com
+    </p>
+    <p class="meta webpage">
+      orcashillhouse.com
+    </p>
+    <hr class="delimiter"/>
   </div>
 
   <footer class='grid-x'>
