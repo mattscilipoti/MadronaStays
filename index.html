@@ -7,6 +7,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Buenard:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
   <style>
+      a:link.subtle {
+        text-decoration: none;
+      }
       body {
         color: #eb5c17;
         font-family: 'Open Sans';
@@ -85,6 +88,9 @@
         text-align: center;
         text-transform: uppercase;
       }
+      #status-link {
+        color: white
+      }
       .col-info {
         float: left;
         width: 50%;
@@ -124,7 +130,11 @@
   <div class="row">
     <div id="house">
       <h1>Madrona Stay</h1>
-      <h2>Rental<br/>*****<br/>Retreat</h2>
+      <h2>Rental
+        <br/>
+        ****<a id="status-link" class='subtle' href="https://status.madronastays.com" target="_blank">*</a>
+        <br/>Retreat
+      </h2>
       <hr class="vertical-bar"/>
     </div>
   </div>
