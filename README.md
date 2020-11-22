@@ -6,3 +6,6 @@ Properties for retreats
 
 Run locally with: `ruby -run -ehttpd . -p8000`
 Browse `localhost:8000`
+
+Madrona Stay font is Buenard
+Other text is Open Sans
